@@ -6,10 +6,10 @@
 
 <ion-content>
   <ion-title>My Heroes</ion-title>
-  <nav>
+  <!-- <nav>
     <a href="">Dashboard</a>
     <a href="">Heroes</a>
-  </nav>
+  </nav> -->
   <ul class="heroes">
     <li *ngFor="let hero of heroes" [class.selected]="hero.name === heroName" routerLink="/heroes/{{ hero.id }}">
         <a ><span class="badge">{{ hero.id }}</span> {{ hero.name }}</a>
