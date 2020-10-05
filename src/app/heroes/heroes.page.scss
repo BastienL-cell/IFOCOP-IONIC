@@ -1,0 +1,40 @@
+ion-toolbar ion-title {
+    text-align: center;
+}
+ul li {
+    list-style-type: none;
+    margin-bottom: 12px;
+    background-color: #CCC;
+    padding: 8px;
+    box-sizing: border-box;
+    min-width: 150px;
+    border-radius: 3px;
+    width: fit-content;
+    font-size: 1.1rem;
+
+    &:hover {
+        cursor: pointer;
+        translate: 3px;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    justify-content: space-between;
+}
+nav a {
+    
+    text-decoration: none;
+    color: inherit;
+    
+}
