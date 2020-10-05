@@ -11,6 +11,10 @@ const routes: Routes = [
       {
         path: "heroes",
         loadChildren: "../heroes/heroes.module#HeroesPageModule"
+      },
+      {
+        path: "dashboard",
+        loadChildren: "../dashboard/dashboard.module#DashboardPageModule"
       }
     ]
   }

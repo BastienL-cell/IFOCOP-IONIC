@@ -17,7 +17,14 @@ export class HeroesService {
     { id: 19, name: 'Magma' },
     { id: 20, name: 'Tornado' }
   ];
-  
+
   constructor() { }
 
+
+  getHero(id: number) {
+    const hero = this.heroes.find((s) => {
+      return s.id === id;
+    });
+    return hero;
+  }
 }

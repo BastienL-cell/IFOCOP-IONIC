@@ -1,0 +1,19 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 55px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: #555;
+    margin-bottom: 35px;
+    min-height: 55px;
+    min-width: 125px;
+    padding: 15px;
+    font-size: 1.3rem;
+    text-align: center;
+}

@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { HeroesPageRoutingModule } from './heroes-routing.module';
+import { DashboardPageRoutingModule } from './dashboard-routing.module';
 
-import { HeroesPage } from './heroes.page';
+import { DashboardPage } from './dashboard.page';
 import { IonHeaderComponent } from '../ion-header/ion-header.component';
 
 @NgModule({
@@ -14,8 +14,8 @@ import { IonHeaderComponent } from '../ion-header/ion-header.component';
     CommonModule,
     FormsModule,
     IonicModule,
-    HeroesPageRoutingModule
+    DashboardPageRoutingModule
   ],
-  declarations: [HeroesPage, IonHeaderComponent]
+  declarations: [DashboardPage, IonHeaderComponent]
 })
-export class HeroesPageModule {}
+export class DashboardPageModule {}

@@ -11,6 +11,14 @@ const routes: Routes = [
     path: "",
     redirectTo: "tabs/heroes",
     pathMatch: 'full'
+  },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
+  {
+    path: 'heroes/:id',
+    loadChildren: () => import('./hero-detail/hero-detail.module').then( m => m.HeroDetailPageModule)
   }
 ];
 
